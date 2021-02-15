@@ -144,7 +144,7 @@
                     </ul>
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="./index.html">EN 🌐</a>
+                            <a class="nav-link" href="./index.php">EN 🌐</a>
                         </li>
                     </ul>
                 </div>
@@ -1099,25 +1099,61 @@
                             <div class="row">
                                 <!-- Start Contact Form -->
                                 <div class="col-md-8 col-sm-7">
-                                    <form action="#">
+                                    <form id="myForm">
                                         <div class="input-group mb-3">
-                                            <input type="text" class="form-control" placeholder="الأسم بالكامل">
+                                            <input id="name" type="text" class="form-control" placeholder="الأسم بالكامل">
                                         </div>
                                         <div class="input-group mb-3">
-                                            <input type="email" class="form-control" placeholder="البريد الألكتروني">
+                                            <input id="email" type="email" class="form-control" placeholder="البريد الألكتروني">
                                         </div>
                                         <div class="input-group mb-3">
-                                            <input type="text" class="form-control" placeholder="عنوان الرسالة">
+                                            <input id="subject" type="text" class="form-control" placeholder="عنوان الرسالة">
                                         </div>
                                         <div class="input-group mb-3">
-                                            <textarea class="form-control" placeholder="محتوى الرسالة"></textarea>
+                                            <textarea id="body" class="form-control" placeholder="محتوى الرسالة"></textarea>
                                         </div>
                                         <div class="input-group mb-3">
-                                            <input type="submit" value="إرسال">
+                                            <input type="submit" onclick="sendEmail()" value="إرسال">
                                         </div>
                                     </form>
                                 </div>
                                 <!-- End Contact Form -->
+                                <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+                                <script type="text/javascript">
+                                    function sendEmail() {
+                                        var name = $("#name");
+                                        var email = $("#email");
+                                        var subject = $("#subject");
+                                        var body = $("#body");
+
+                                        if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(body)) {
+                                            $.ajax({
+                                                url: 'sendEmail.php',
+                                                method: 'POST',
+                                                dataType: 'json',
+                                                data: {
+                                                    name: name.val(),
+                                                    email: email.val(),
+                                                    subject: subject.val(),
+                                                    body: body.val()
+                                                }, success: function (response) {
+                                                    $('#myForm')[0].reset();
+                                                    // $('.sent-notification').text("Message Sent Successfully.");
+                                                }
+                                            });
+                                        }
+                                    }
+
+                                    function isNotEmpty(caller) {
+                                        if (caller.val() == "") {
+                                            caller.css('border', '1px solid red');
+                                            return false;
+                                        } else
+                                            caller.css('border', '');
+
+                                        return true;
+                                    }
+                                </script>
                                 <!-- Start Contact Info -->
                                 <div class="col-md-4 col-sm-5">
                                     <div class="contact-info">
