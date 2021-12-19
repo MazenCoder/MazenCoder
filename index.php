@@ -50,7 +50,7 @@
                 <!-- Navbar Links -->
                 <div class="collapse navbar-collapse justify-content-md-center" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        
+
                         <li class="nav-item">
                             <a class="nav-link" href="#home">Home</a>
                         </li>
@@ -173,7 +173,7 @@
                     <img src="./assets/img/screenshots-5.png" alt="Huda" class="img-fluid">
                 </div>
                 <div class="screen-second-right layer" data-depth="0.05">
-                    <img src="./assets/img/screenshots-3.png" alt="Huda" class="img-fluid">
+                    <img src="./assets/img/screenshots-8.png" alt="Huda" class="img-fluid">
                 </div>
                 <div class="screen-second-left layer" data-depth="0.05">
                     <img src="./assets/img/screenshots-4.png" alt="Huda" class="img-fluid">
@@ -499,10 +499,10 @@ Android & iOS</p>
         <section id="download" class="download pdd70">
             <div class="overlay"></div>
             <div class="container">
-                
+
                 <div class="download-inner">
                     <div class="row align-items-center justify-content-between">
-                        
+
                         <div class="col-xl-5 col-lg-6 col-md-6">
                             <div class="download-phone">
                                 <div class="download-bttns">
@@ -520,8 +520,8 @@ Android & iOS</p>
                                 <img src="http://placehold.it/2084x2015" alt="Huda" class="img-fluid">
                             </div>
                         </div>
-                        
-                        
+
+
                         <div class="col-md-6">
                             <div class="download-txt">
                                 <h2>Built for everyone</h2>
@@ -625,10 +625,10 @@ Android & iOS</p>
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
         </section>
 -->
@@ -680,18 +680,30 @@ Android & iOS</p>
                             <!-- End Single Item -->
                             <!-- Start Single Item -->
                             <div class="swiper-slide" data-swiper-autoplay="3000">
-                               <a href="https://apps.apple.com/us/app/mind-charms/id1543848255" target="_blank">
-                                <img alt="Huda" src="./assets/img/screenshots-4.png" class="img-fluid"></a>
+<!--                               <a href="https://apps.apple.com/us/app/mind-charms/id1543848255" target="_blank">-->
+                                <img alt="Huda" src="./assets/img/screenshots-4.png" class="img-fluid">
+<!--                                </a>-->
                             </div>
                             <!-- End Single Item -->
                             <!-- Start Single Item -->
                             <div class="swiper-slide" data-swiper-autoplay="3000">
                                 <img alt="Huda" src="./assets/img/screenshots-5.png" class="img-fluid">
                             </div>
-                            
+
                             <div class="swiper-slide" data-swiper-autoplay="3000">
                                <a href="https://play.google.com/store/apps/details?id=com.inoser.inoface_lescopains&hl=fr&gl=US" target="_blank">
                                 <img alt="Huda" src="./assets/img/screenshots-7.png" class="img-fluid"></a>
+                            </div>
+
+                            <div class="swiper-slide" data-swiper-autoplay="3000">
+                                <a href="https://apps.apple.com/us/app/heels-in-health/id1588640558" target="_blank">
+                                    <img alt="Huda" src="./assets/img/screenshots-8.png" class="img-fluid"></a>
+                            </div>
+
+                            <div class="swiper-slide" data-swiper-autoplay="3000">
+<!--                                <a href="https://apps.apple.com/us/app/heels-in-health/id1588640558" target="_blank">-->
+                                    <img alt="Huda" src="./assets/img/screenshots-9.png" class="img-fluid">
+<!--                                </a>-->
                             </div>
                             <!-- End Single Item -->
                         </div>
@@ -706,9 +718,9 @@ Android & iOS</p>
 <!--
         <section id="video-box" class="video-box">
             <div class="container">
-                
+
                 <div class="video-inner">
-                
+
                     <div class="video-head">
                         <h4>Get the brand new <br>
                             Huda Service today</h4>
@@ -718,9 +730,9 @@ Android & iOS</p>
                         <h3><span>1,693,752</span> User have been using our Services successfully.</h3>
                         <a href="#" class="bttn dblue">Free 30 Days Trial</a>
                     </div>
-                    
+
                     <div class="row align-items-center justify-content-between">
-                        
+
                         <div class="col-md-6">
                             <div class="video-img">
                                 <a href="https://www.youtube.com/watch?v=afj3WB44lko" data-lity>
@@ -729,8 +741,8 @@ Android & iOS</p>
                                 </a>
                             </div>
                         </div>
-                        
-                        
+
+
                         <div class="col-lg-5 col-md-6">
                             <div class="video-title">
                                 <h2 class="h1">Huda</h2>
@@ -748,10 +760,10 @@ Android & iOS</p>
                                 <span>Senior Front-End Developer</span>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
         </section>
 -->
@@ -760,16 +772,16 @@ Android & iOS</p>
 <!--
         <section id="pricing-table" class="pricing-table pdd70">
             <div class="container">
-                
+
                 <div class="section-title">
                     <h2>Pricing Table</h2>
                     <p>We tried to make very high-quality product and so our code is very neat and clean, Whatever
                         anyone
                         could improve and modify the template to your liking</p>
                 </div>
-                
+
                 <div class="row justify-content-around">
-                    
+
                     <div class="col-xl-5 col-lg-5 col-md-5">
                         <div class="price-box">
                             <h4 class="price-title">Start Up</h4>
@@ -795,8 +807,8 @@ Android & iOS</p>
                             </div>
                         </div>
                     </div>
-                    
-                    
+
+
                     <div class="col-xl-5 col-lg-5 col-md-5">
                         <div class="price-box">
                             <h4 class="price-title">Enterprise</h4>
@@ -822,7 +834,7 @@ Android & iOS</p>
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </section>
@@ -832,17 +844,17 @@ Android & iOS</p>
 <!--
         <section id="team" class="team pdd70">
             <div class="container">
-                
+
                 <div class="section-title">
                     <h2>Our Team</h2>
                     <p>We tried to make very high-quality product and so our code is very neat and clean, Whatever
                         anyone
                         could improve and modify the template to your liking</p>
                 </div>
-                
+
                 <div class="team-inner">
                     <div class="row">
-                        
+
                         <div class="col-md-3 col-sm-6">
                             <div class="team-box">
                                 <div class="team-img">
@@ -861,7 +873,7 @@ Android & iOS</p>
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-3 col-sm-6">
                             <div class="team-box active">
                                 <div class="team-img">
@@ -880,7 +892,7 @@ Android & iOS</p>
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-3 col-sm-6">
                             <div class="team-box">
                                 <div class="team-img">
@@ -899,7 +911,7 @@ Android & iOS</p>
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-3 col-sm-6">
                             <div class="team-box">
                                 <div class="team-img">
@@ -918,10 +930,10 @@ Android & iOS</p>
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
         </section>
 -->
@@ -931,12 +943,12 @@ Android & iOS</p>
         <section id="faq" class="faq pdd70">
             <div class="container">
                 <div class="row align-items-center justify-content-around">
-                    
+
                     <div class="col-lg-6 col-md-6 order-2 order-md-1">
                         <div class="faq-txt">
                             <h4>Do you have any questions?</h4>
                             <div class="accordion" id="accordionExample">
-                    
+
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -956,7 +968,7 @@ Android & iOS</p>
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingTwo">
                                         <button class="accordion-button collapsed" type="button"
@@ -974,7 +986,7 @@ Android & iOS</p>
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingThree">
                                         <button class="accordion-button collapsed" type="button"
@@ -993,7 +1005,7 @@ Android & iOS</p>
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingFour">
                                         <button class="accordion-button collapsed" type="button"
@@ -1012,17 +1024,17 @@ Android & iOS</p>
                                         </div>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-xl-3 col-lg-4 col-md-5 order-1 order-md-2">
                         <div class="faq-img">
                             <img class="img-fluid" src="http://placehold.it/640x960" alt="Huda">
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </section>

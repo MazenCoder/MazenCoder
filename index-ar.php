@@ -51,11 +51,11 @@
                 <!-- Navbar Links -->
                 <div class="collapse navbar-collapse justify-content-md-center" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                       
+
                        <li class="nav-item">
                             <a class="nav-link" href="#home">الرئيسية</a>
                         </li>
-                       
+
 <!--
                         <li class="nav-item dropdown js-dropdown-links">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -176,7 +176,7 @@
                     <img src="./assets/img/screenshots-5.png" alt="Huda" class="img-fluid">
                 </div>
                 <div class="screen-second-right layer" data-depth="0.05">
-                    <img src="./assets/img/screenshots-3.png" alt="Huda" class="img-fluid">
+                    <img src="./assets/img/screenshots-8.png" alt="Huda" class="img-fluid">
                 </div>
                 <div class="screen-second-left layer" data-depth="0.05">
                     <img src="./assets/img/screenshots-4.png" alt="Huda" class="img-fluid">
@@ -496,16 +496,16 @@
             </div>
         </section>
         <!-- End Best Feature -->
-        
+
         <!-- Start Download -->
         <!--
         <section id="download" class="download pdd70">
             <div class="overlay"></div>
             <div class="container">
-                
+
                 <div class="download-inner">
                     <div class="row align-items-center justify-content-between">
-                        
+
                         <div class="col-xl-5 col-lg-6 col-md-6">
                             <div class="download-phone">
                                 <div class="download-bttns">
@@ -621,15 +621,15 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
         </section>
         -->
         <!-- End Download -->
-        
+
         <!-- Start Screenshots -->
         <section id="screenshots" class="screenshots pdd70">
             <div class="container">
@@ -677,18 +677,30 @@
                             <!-- End Single Item -->
                             <!-- Start Single Item -->
                             <div class="swiper-slide" data-swiper-autoplay="3000">
-                               <a href="https://apps.apple.com/us/app/mind-charms/id1543848255" target="_blank">
-                                <img alt="Huda" src="./assets/img/screenshots-4.png" class="img-fluid"></a>
+<!--                               <a href="https://apps.apple.com/us/app/mind-charms/id1543848255" target="_blank">-->
+                                <img alt="Huda" src="./assets/img/screenshots-4.png" class="img-fluid">
+<!--                                </a>-->
                             </div>
                             <!-- End Single Item -->
                             <!-- Start Single Item -->
                             <div class="swiper-slide" data-swiper-autoplay="3000">
                                 <img alt="Huda" src="./assets/img/screenshots-5.png" class="img-fluid">
                             </div>
-                            
+
                             <div class="swiper-slide" data-swiper-autoplay="3000">
                                <a href="https://play.google.com/store/apps/details?id=com.inoser.inoface_lescopains&hl=fr&gl=US" target="_blank">
                                 <img alt="Huda" src="./assets/img/screenshots-7.png" class="img-fluid"></a>
+                            </div>
+
+                            <div class="swiper-slide" data-swiper-autoplay="3000">
+                                <a href="https://play.google.com/store/apps/details?id=com.inoser.inoface_lescopains&hl=fr&gl=US" target="_blank">
+                                    <img alt="Huda" src="./assets/img/screenshots-8.png" class="img-fluid"></a>
+                            </div>
+
+                            <div class="swiper-slide" data-swiper-autoplay="3000">
+<!--                                <a href="https://play.google.com/store/apps/details?id=com.inoser.inoface_lescopains&hl=fr&gl=US" target="_blank">-->
+                                    <img alt="Huda" src="./assets/img/screenshots-9.png" class="img-fluid">
+<!--                                </a>-->
                             </div>
                             <!-- End Single Item -->
                         </div>
@@ -703,9 +715,9 @@
 <!--
         <section id="video-box" class="video-box">
             <div class="container">
-                
+
                 <div class="video-inner">
-                
+
                     <div class="video-head">
                         <h4>الحصول على العلامة التجارية الجديدة
                             <br>
@@ -717,9 +729,9 @@
                         <h3><span>1,693,752</span> مستخدم قام بإستخدام خدماتنا بنجاح.</h3>
                         <a href="#" class="bttn dblue">نسخة تجريبية مجانية لمدة 30 يومًا </a>
                     </div>
-                    
+
                     <div class="row align-items-center justify-content-between">
-                        
+
                         <div class="col-md-6">
                             <div class="video-img">
                                 <a href="https://www.youtube.com/watch?v=afj3WB44lko" data-lity>
@@ -728,7 +740,7 @@
                                 </a>
                             </div>
                         </div>
-                        
+
                         <div class="col-lg-5 col-md-6">
                             <div class="video-title">
                                 <h2 class="h1">تصميم هُدى</h2>
@@ -738,25 +750,25 @@
                                 <span>مصمم مواقع إنترنت</span>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
         </section>
-        
+
         <section id="pricing-table" class="pricing-table pdd70">
             <div class="container">
-                
+
                 <div class="section-title">
                     <h2>أسعارنا</h2>
                     <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى،
                         حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها
                         التطبيق</p>
                 </div>
-                
+
                 <div class="row justify-content-around">
-                
+
                     <div class="col-xl-5 col-lg-5 col-md-5">
                         <div class="price-box">
                             <h4 class="price-title">بداية</h4>
@@ -782,7 +794,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-xl-5 col-lg-5 col-md-5">
                         <div class="price-box">
                             <h4 class="price-title">شركات</h4>
@@ -808,12 +820,12 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </section>
-    
-        
+
+
         <section id="team" class="team pdd70">
             <div class="container">
                 <div class="section-title">
@@ -901,16 +913,16 @@
             </div>
         </section>
 
-        
+
         <section id="faq" class="faq pdd70">
             <div class="container">
                 <div class="row align-items-center justify-content-around">
-                    
+
                     <div class="col-lg-6 col-md-6 order-2 order-md-1">
                         <div class="faq-txt">
                             <h4>هل لديك اسئلة؟</h4>
                             <div class="accordion" id="accordionExample">
-                    
+
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -974,7 +986,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -984,22 +996,22 @@
                             <img class="img-fluid" src="http://placehold.it/640x960" alt="Huda">
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </section>
         -->
         <!-- End Faq -->
         <!-- Start Blog -->
-        
+
         <section id="blog" class="blog pdd70">
             <div class="container">
-                
+
                 <div class="section-title">
                     <h2>ما الذي يمكنني أن أفعله من أجلك؟</h2>
                     <p>أكثر من مجرد تطوير ، أنا أساعد في تسويق فكرة تطبيقك وتوسيع نطاقها وتحسينها</p>
                 </div>
-                
+
                 <div class="blog-inner">
                     <div class="row">
                         <!-- Start Post -->
@@ -1074,7 +1086,7 @@
                 </div>
             </div>
         </section>
-        
+
         <!-- End Blog -->
         <!-- Start Contact Form -->
         <section id="contact-form" class="contact-form pdd70">
