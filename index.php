@@ -705,6 +705,18 @@ Android & iOS</p>
                                     <img alt="Huda" src="./assets/img/screenshots-9.png" class="img-fluid">
 <!--                                </a>-->
                             </div>
+
+                            <div class="swiper-slide" data-swiper-autoplay="3000">
+                                <!--                                <a href="https://play.google.com/store/apps/details?id=com.inoser.inoface_lescopains&hl=fr&gl=US" target="_blank">-->
+                                <img alt="Huda" src="./assets/img/screenshots-10.png" class="img-fluid">
+                                <!--                                </a>-->
+                            </div>
+
+                            <div class="swiper-slide" data-swiper-autoplay="3000">
+                                <!--                                <a href="https://play.google.com/store/apps/details?id=com.inoser.inoface_lescopains&hl=fr&gl=US" target="_blank">-->
+                                <img alt="Huda" src="./assets/img/screenshots-11.png" class="img-fluid">
+                                <!--                                </a>-->
+                            </div>
                             <!-- End Single Item -->
                         </div>
                     </div>
