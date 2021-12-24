@@ -1323,6 +1323,29 @@ Android & iOS</p>
     <script src="assets/js/plugins.min.js"></script>
     <!-- App JS -->
     <script src="assets/js/app.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyBfS-v9Uzije4Yh12SPsbD8ydtvOP9UiRA",
+            authDomain: "mazen-coder.firebaseapp.com",
+            projectId: "mazen-coder",
+            storageBucket: "mazen-coder.appspot.com",
+            messagingSenderId: "938992428764",
+            appId: "1:938992428764:web:32fb73b20ffc2b922cb619",
+            measurementId: "G-617SX5DNPM"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
 </body>
 
 </html>
