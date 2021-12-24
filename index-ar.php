@@ -698,9 +698,9 @@
                             </div>
 
                             <div class="swiper-slide" data-swiper-autoplay="3000">
-<!--                                <a href="https://play.google.com/store/apps/details?id=com.inoser.inoface_lescopains&hl=fr&gl=US" target="_blank">-->
+                                <a href="https://play.google.com/store/apps/details?id=com.simon.vaccid" target="_blank">
                                     <img alt="Huda" src="./assets/img/screenshots-9.png" class="img-fluid">
-<!--                                </a>-->
+                                </a>
                             </div>
 
                             <div class="swiper-slide" data-swiper-autoplay="3000">

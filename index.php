@@ -9,7 +9,6 @@
 <head>
     <!-- Basic Page Needs-->
     <meta charset="UTF-8">
-    <meta name="description" content="Mobile Application Developer">
     <meta name="author" content="Mazen Coder">
     <!-- Mobile Specific Meta-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,6 +16,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Page Title -->
     <title>Mazen Coder</title>
+    <meta name="description" content="Mobile App Developer. Are you looking for an Flutter app developer with deep experience in user-interfaces and user-experience?" />
+    <meta name="keywords" content="Flutter App Developer, Hire Flutter developer, Flutter App Development Services" />
+    <meta name="google-site-verification" content="9LSpMAqlM1uo0d6j-pxjSJmYwydYghaXnpgss1xTO2I" />
     <!-- Favicon-->
     <link rel="shortcut icon" type="image/x-icon" href="./assets/img/logo-32.png">
     <!-- CSS Files ================================================== -->
@@ -701,9 +703,9 @@ Android & iOS</p>
                             </div>
 
                             <div class="swiper-slide" data-swiper-autoplay="3000">
-<!--                                <a href="https://apps.apple.com/us/app/heels-in-health/id1588640558" target="_blank">-->
+                                <a href="https://play.google.com/store/apps/details?id=com.simon.vaccid" target="_blank">
                                     <img alt="Huda" src="./assets/img/screenshots-9.png" class="img-fluid">
-<!--                                </a>-->
+                                </a>
                             </div>
 
                             <div class="swiper-slide" data-swiper-autoplay="3000">
