@@ -86,8 +86,8 @@ a {
 .bttn.dblue {
     background: #1e5394;
     color: #fff;
-    -webkit-box-shadow: 0px 10px 18px 0px rgba(52, 55, 145, 0.3);
-    box-shadow: 0px 10px 18px 0px rgba(52, 55, 145, 0.3);
+    -webkit-box-shadow: 0 10px 18px 0 rgba(52, 55, 145, 0.3);
+    box-shadow: 0 10px 18px 0 rgba(52, 55, 145, 0.3);
 }
 
 .overlay {
@@ -385,7 +385,7 @@ main {
     transition: .3s ease-in-out;
 }
 
-@media only screen and (min-width: 991.98px) {
+@media only screen and (min-width: 992px) {
     .dropdown-item.active {
         background: transparent;
     }
@@ -814,8 +814,7 @@ main {
 }
 
 .about-box .box-top h4 {
-    margin: 0;
-    margin-top: 11px;
+    margin: 11px 0 0;
     font-size: 20px;
 }
 
@@ -921,11 +920,10 @@ main {
 
 .how-work .phone-slide {
     padding: 16px 20px 30px 19px;
-    background: rgba(0, 0, 0, 0) url("../img/mockup@x1.png") no-repeat scroll top center;
+    background: rgba(0, 0, 0, 0) url("../img/mockup@x1.webp") no-repeat scroll top center;
     background-size: 100%;
     max-width: 281px;
     margin: 0 auto;
-    margin-top: 0;
     position: relative;
 }
 
@@ -1416,7 +1414,7 @@ main {
 }
 
 .basis {
-    -ms-flex-preferred-size: 100%;
+    /*-ms-flex-preferred-size: 100%;*/
     flex-basis: 100%;
 }
 
@@ -2307,7 +2305,7 @@ main {
 
 .mobile-map {
     padding: 16px 20px 16px 19px;
-    background: rgba(0, 0, 0, 0) url(../img/screenshots.png) no-repeat scroll top center;
+    background: rgba(0, 0, 0, 0) url(../img/screenshots.webp) no-repeat scroll top center;
     background-size: 100%;
     max-width: 281px;
     margin: 0 auto;
@@ -2751,11 +2749,10 @@ main {
 }
 
 .inner-header .box-content .page-title h2 {
-    margin: 0;
     color: #fff;
     font-size: 40px;
     font-weight: 600;
-    margin-bottom: 22px;
+    margin: 0 0 22px;
 }
 
 .inner-header .box-content .page-title p {
@@ -2830,7 +2827,6 @@ main {
 .pagination .page-item .page-link {
     background: #fff;
     color: #333;
-    -webkit-box-shadow: none;
     box-shadow: none;
     padding: 0;
     width: 40px;
@@ -2848,8 +2844,8 @@ main {
 .pagination .page-item.active .page-link {
     background: #1e5394;
     color: #fff;
-    -webkit-box-shadow: 0px 10px 18px 0px rgba(52, 55, 145, 0.3);
-    box-shadow: 0px 10px 18px 0px rgba(52, 55, 145, 0.3);
+    -webkit-box-shadow: 0 10px 18px 0 rgba(52, 55, 145, 0.3);
+    box-shadow: 0 10px 18px 0 rgba(52, 55, 145, 0.3);
 }
 
 /* Free Trial */
@@ -3005,11 +3001,9 @@ main {
     -webkit-box-shadow: none;
     box-shadow: none;
     outline: none;
-    border-radius: 50px;
     border-radius: 10px 0 0 10px !important;
-    padding: 10px 20px;
     font-size: 14px;
-    padding-left: 45px;
+    padding: 10px 20px 10px 45px;
     border-right: 0;
 }
 
@@ -3231,14 +3225,13 @@ main {
 /* Archive Box */
 
 .archive-box .form-check {
-    margin: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-bottom: 10px;
+    margin: 0 0 10px;
 }
 
 .archive-box .form-check input, .archive-box .form-check label {
@@ -3289,8 +3282,8 @@ main {
 
 .tags-box a:hover, .tags-box a.active {
     background: #1e5394;
-    -webkit-box-shadow: 0px 10px 18px 0px rgba(52, 55, 145, 0.3);
-    box-shadow: 0px 10px 18px 0px rgba(52, 55, 145, 0.3);
+    -webkit-box-shadow: 0 10px 18px 0 rgba(52, 55, 145, 0.3);
+    box-shadow: 0 10px 18px 0 rgba(52, 55, 145, 0.3);
     color: #fff;
     border-color: #1e5394;
     -webkit-transition: all .3s ease-in-out;
@@ -3416,8 +3409,8 @@ main {
     text-align: center;
     color: #fff;
     background: #1e5394;
-    -webkit-box-shadow: 0px 10px 18px 0px rgba(52, 55, 145, 0.3);
-    box-shadow: 0px 10px 18px 0px rgba(52, 55, 145, 0.3);
+    -webkit-box-shadow: 0 10px 18px 0 rgba(52, 55, 145, 0.3);
+    box-shadow: 0 10px 18px 0 rgba(52, 55, 145, 0.3);
     border-radius: 50%;
 }
 
@@ -3507,8 +3500,7 @@ main {
 }
 
 .single-post-pagination a p {
-    margin: 0;
-    margin-bottom: 5px;
+    margin: 0 0 5px;
     color: #1e5394;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3673,8 +3665,8 @@ main {
 
 .comment-box .comment-head .comment-reply a {
     background: #1e5394;
-    -webkit-box-shadow: 0px 10px 18px 0px rgba(52, 55, 145, 0.3);
-    box-shadow: 0px 10px 18px 0px rgba(52, 55, 145, 0.3);
+    -webkit-box-shadow: 0 10px 18px 0 rgba(52, 55, 145, 0.3);
+    box-shadow: 0 10px 18px 0 rgba(52, 55, 145, 0.3);
     color: #fff;
     font-size: 12px;
     border-radius: 50px;
@@ -3711,8 +3703,7 @@ main {
 
 .comment-inner ul.replies h5 {
     font-size: 16px;
-    margin: 0;
-    margin-bottom: 13px;
+    margin: 0 0 13px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3793,8 +3784,8 @@ main {
 
 .leave-comment input[type="submit"] {
     border: none;
-    -webkit-box-shadow: 0px 10px 18px 0px rgba(52, 55, 145, 0.3) !important;
-    box-shadow: 0px 10px 18px 0px rgba(52, 55, 145, 0.3) !important;
+    -webkit-box-shadow: 0 10px 18px 0 rgba(52, 55, 145, 0.3) !important;
+    box-shadow: 0 10px 18px 0 rgba(52, 55, 145, 0.3) !important;
     border-radius: 50px !important;
     padding: 10px 30px;
     font-weight: 500;
@@ -4048,7 +4039,7 @@ main {
 
 /* X-Large devices (large desktops, from more than 1200px to less than 1400px) */
 
-@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
     .head-txt h1 {
         font-size: 44px;
     }
@@ -4068,7 +4059,7 @@ main {
 
 /* Large devices (desktops, from more than 992px to less than 1200px) */
 
-@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
     .head-txt h1 {
         font-size: 37px;
     }
@@ -4121,7 +4112,7 @@ main {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
     .sepa-psudeo {
         display: none
     }
@@ -4155,7 +4146,7 @@ main {
 
 /* Medium devices (tablets, less than 992px) */
 
-@media only screen and (max-width: 991.98px) {
+@media only screen and (max-width: 992px) {
     .head-txt h1 {
         font-size: 27px;
     }
@@ -4308,7 +4299,7 @@ main {
 
 /* Small devices (landscape phones, less than 768px) */
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 768px) {
     .header {
         border-radius: 0;
     }
@@ -4429,7 +4420,7 @@ main {
 
 /* X-Small devices (portrait phones, less than 576px) */
 
-@media only screen and (max-width: 575.98px) {
+@media only screen and (max-width: 576px) {
     .sepa-psudeo {
         display: none
     }

@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<!--<![endif]-->
 
 <head>
     <!-- Basic Page Needs-->
@@ -56,39 +51,6 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#home">Home</a>
                         </li>
-<!--
-                        <li class="nav-item dropdown js-dropdown-links">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Home
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li class="dropdown-link"><a class="dropdown-item" href="#home">Home</a>
-                                </li>
-                                <li class="dropdown-link"><a class="dropdown-item" href="home-main.html">Home
-                                        Main</a></li>
-                                <li class="dropdown-link"><a class="dropdown-item" href="home-bubbles.html">Home
-                                        Bubbles</a></li>
-                                <li class="dropdown-link"><a class="dropdown-item" href="home-carousel.html">Home
-                                        Carousel</a></li>
-                                <li class="dropdown-link"><a class="dropdown-item" href="home-image.html">Home Image</a>
-                                </li>
-                                <li class="dropdown-link"><a class="dropdown-item" href="home-parallax.html">Home
-                                        Parallax</a>
-                                </li>
-                                <li class="dropdown-link"><a class="dropdown-item" href="home-particles.html">Home
-                                        Particles</a>
-                                </li>
-                                <li class="dropdown-link"><a class="dropdown-item" href="home-snow.html">Home Snow</a>
-                                </li>
-                                <li class="dropdown-link"><a class="dropdown-item" href="home-video.html">Home Video</a>
-                                </li>
-                                <li class="dropdown-link"><a class="dropdown-item" href="home-water.html">Home Water</a>
-                                </li>
-                                <li class="bg-gray hover-state js-hover-state"></li>
-                            </ul>
-                        </li>
--->
                         <li class="nav-item">
                             <a class="nav-link" href="#about">Features</a>
                         </li>
@@ -101,42 +63,6 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#blog">Services</a>
                         </li>
-<!--
-                        <li class="nav-item dropdown js-dropdown-links">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Services
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li class="dropdown-link"><a class="dropdown-item" href="#blog">Blog</a>
-                                </li>
-                                <li class="dropdown-link"><a class="dropdown-item" href="blog-2column.html">Blog 2
-                                        Column</a></li>
-                                <li class="dropdown-link"><a class="dropdown-item" href="blog-3column.html">Blog 3
-                                        Column</a></li>
-                                <li class="dropdown-link"><a class="dropdown-item" href="blog-full-width.html">Blog Full
-                                        Width</a></li>
-                                <li class="dropdown-link"><a class="dropdown-item" href="blog-left-sidebar.html">Blog
-                                        Left Sidebar</a>
-                                </li>
-                                <li class="dropdown-link"><a class="dropdown-item" href="blog-right-sidebar.html">Blog
-                                        Right Sidebar</a>
-                                </li>
-                                <li class="dropdown-link"><a class="dropdown-item"
-                                        href="single-post-full-width.html">Single Post Full
-                                        width</a>
-                                </li>
-                                <li class="dropdown-link"><a class="dropdown-item"
-                                        href="single-post-left-sidebar.html">Single Post Left
-                                        Sidebar</a>
-                                </li>
-                                <li class="dropdown-link"><a class="dropdown-item"
-                                        href="single-post-right-sidebar.html">Single Post Right
-                                        Sidebar</a></li>
-                                <li class="bg-gray hover-state js-hover-state"></li>
-                            </ul>
-                        </li>
--->
                         <li class="nav-item">
                             <a class="nav-link" href="#contact-form">Contact</a>
                         </li>
@@ -163,22 +89,22 @@
             <!-- Start Parallax Phones -->
             <div class="parallax-phones layer-parallax">
                 <div class="phone layer" data-depth="0.25">
-                    <img src="assets/img/screenshots.png" alt="Huda" class="img-fluid">
+                    <img src="assets/img/screenshots.webp" alt="Huda" class="img-fluid">
                     <div class="screen">
-                        <img src="./assets/img/screenshots-1.png" alt="Huda" class="img-fluid">
+                        <img src="./assets/img/screenshots-1.webp" alt="Huda" class="img-fluid">
                     </div>
                 </div>
                 <div class="screen-first-right layer" data-depth="0.15">
-                    <img src="./assets/img/screenshots-2.png" alt="Huda" class="img-fluid">
+                    <img src="./assets/img/screenshots-2.webp" alt="Huda" class="img-fluid">
                 </div>
                 <div class="screen-first-left layer" data-depth="0.15">
-                    <img src="./assets/img/screenshots-5.png" alt="Huda" class="img-fluid">
+                    <img src="./assets/img/screenshots-5.webp" alt="Huda" class="img-fluid">
                 </div>
                 <div class="screen-second-right layer" data-depth="0.05">
-                    <img src="./assets/img/screenshots-8.png" alt="Huda" class="img-fluid">
+                    <img src="./assets/img/screenshots-8.webp" alt="Huda" class="img-fluid">
                 </div>
                 <div class="screen-second-left layer" data-depth="0.05">
-                    <img src="./assets/img/screenshots-4.png" alt="Huda" class="img-fluid">
+                    <img src="./assets/img/screenshots-4.webp" alt="Huda" class="img-fluid">
                 </div>
             </div>
             <!-- End Parallax Phones -->
@@ -322,7 +248,7 @@ Android & iOS</p>
                                     <i class='bx bx-star bx-tada'></i>
                                     <div class="counter-shadow"></div>
                                 </div>
-                                <span class="counter-value">17</span>
+                                <span class="counter-value">30</span>
                                 <h3>Top Rated</h3>
                             </div>
                         </div>
@@ -344,13 +270,6 @@ Android & iOS</p>
                 <!-- End Counter Inner -->
                 <!-- Start Vertical Image -->
                 <div class="row justify-content-center">
-<!--
-                    <div class="col-md-12">
-                        <div class="img-box">
-                            <img class="img-fluid" src="http://placehold.it/3566x1793" alt="Huda">
-                        </div>
-                    </div>
--->
                 </div>
                 <!-- End Vertical Image -->
             </div>
@@ -364,10 +283,10 @@ Android & iOS</p>
                         <div class="persons-box">
                             <!-- Start One -->
                             <div data-iconSize="5" class="icon-closer callimg active-person" data-owl-item="0">
-                                <img src="https://instagram.frba3-2.fna.fbcdn.net/v/t51.2885-19/s150x150/100893427_247089020060108_5304649231808593920_n.jpg?_nc_ht=instagram.frba3-2.fna.fbcdn.net&_nc_ohc=fAr4vO42ShsAX-Qdwhh&tp=1&oh=d02a5950fe55a0e0084aa1ae04cb6765&oe=603F0C72" alt="Huda">
+                                <img src="assets/img/actions-user.png" alt="Huda">
                             </div>
                             <div data-iconSize="10" class="icon-closer callimg" data-owl-item="1">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Breezeicons-actions-22-im-user.svg/1200px-Breezeicons-actions-22-im-user.svg.png" alt="Huda">
+                                <img src="assets/img/actions-user.png" alt="Huda">
                             </div>
                             <div data-iconSize="6" class="icon-closer callimg" data-owl-item="2">
                                 <img src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/profile/photos/15280833/original/IMG_4111.JPG" alt="Huda">
@@ -385,7 +304,7 @@ Android & iOS</p>
                                 <img src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/44e53567c55af455838de4c89c56209a-1603689544703/ba125ba0-9135-48b2-8709-4a27312eefa8.jpeg" alt="Huda">
                             </div>
                             <div data-iconSize="6" class="icon-closer callimg" data-owl-item="6">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Breezeicons-actions-22-im-user.svg/1200px-Breezeicons-actions-22-im-user.svg.png" alt="Huda">
+                                <img src="assets/img/actions-user.png" alt="Huda">
                             </div>
                             <div data-iconSize="7" class="icon-closer callimg" data-owl-item="7">
                                 <img src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/04aff838231bb998d83a8eebd10575c7-1603654405219/2c402a10-5d5b-45a6-b1c6-b3c37a1a3971.jpg" alt="Huda">
@@ -496,145 +415,7 @@ Android & iOS</p>
             </div>
         </section>
         <!-- End Best Feature -->
-        <!-- Start Download -->
-<!--
-        <section id="download" class="download pdd70">
-            <div class="overlay"></div>
-            <div class="container">
 
-                <div class="download-inner">
-                    <div class="row align-items-center justify-content-between">
-
-                        <div class="col-xl-5 col-lg-6 col-md-6">
-                            <div class="download-phone">
-                                <div class="download-bttns">
-                                    <span class="sepa-psudeo  d-none d-lg-block d-sm-block d-md-none"></span>
-                                    <a href="#"><i class='bx bxl-apple'></i>
-                                        <div class="bttn-name">Apple Version</div>
-                                    </a>
-                                    <a href="#"><i class='bx bxl-play-store'></i>
-                                        <div class="bttn-name">Android Version</div>
-                                    </a>
-                                    <a href="#"><i class='bx bxl-windows'></i>
-                                        <div class="bttn-name">Windows Version</div>
-                                    </a>
-                                </div>
-                                <img src="http://placehold.it/2084x2015" alt="Huda" class="img-fluid">
-                            </div>
-                        </div>
-
-
-                        <div class="col-md-6">
-                            <div class="download-txt">
-                                <h2>Built for everyone</h2>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, sequi distinctio
-                                    facilis facere, fuga aliquam itaque quis corporis dolorum officiis nulla dignissimos
-                                    porro officia iste maiores? Id voluptate officiis alias!</p>
-                                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                                    <li class="nav-item" role="presentation">
-                                        <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
-                                            href="#pills-home" role="tab" aria-controls="pills-home"
-                                            aria-selected="true">Ver 2.3</a>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
-                                            href="#pills-profile" role="tab" aria-controls="pills-profile"
-                                            aria-selected="false">Ver 2.0</a>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-                                            href="#pills-contact" role="tab" aria-controls="pills-contact"
-                                            aria-selected="false">Ver 1.7</a>
-                                    </li>
-                                </ul>
-                                <div class="tab-content" id="pills-tabContent">
-                                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                                        aria-labelledby="pills-home-tab">
-                                        <div class="list-info">
-                                            <div class="row">
-                                                <div class="col-lg-6 col-12 col-sm-6">
-                                                    <ul class="list-unstyled">
-                                                        <li><i class='bx bx-check bx-tada'></i> A personalized
-                                                            experience
-                                                        </li>
-                                                        <li><i class='bx bx-check bx-tada'></i> Integrate geolocation
-                                                        </li>
-                                                        <li><i class='bx bx-check bx-tada'></i> Reminders</li>
-                                                        <li><i class='bx bx-check bx-tada'></i> Gamification</li>
-                                                        <li><i class='bx bx-check bx-tada'></i> Food tracker</li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col-lg-6 col-12 col-sm-6">
-                                                    <ul class="list-unstyled">
-                                                        <li><i class='bx bx-check bx-tada'></i> Multi-device
-                                                            synchronization
-                                                        </li>
-                                                        <li><i class='bx bx-check bx-tada'></i> Sleep tracker</li>
-                                                        <li><i class='bx bx-check bx-tada'></i> Altimeter</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="pills-profile" role="tabpanel"
-                                        aria-labelledby="pills-profile-tab">
-                                        <div class="list-info">
-                                            <div class="row">
-                                                <div class="col-lg-6 col-12 col-sm-6">
-                                                    <ul class="list-unstyled">
-                                                        <li><i class='bx bx-check bx-tada'></i> A personalized
-                                                            experience
-                                                        </li>
-                                                        <li><i class='bx bx-check bx-tada'></i> Integrate geolocation
-                                                        </li>
-                                                        <li><i class='bx bx-check bx-tada'></i> Reminders</li>
-                                                        <li><i class='bx bx-check bx-tada'></i> Gamification</li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col-lg-6 col-12 col-sm-6">
-                                                    <ul class="list-unstyled">
-                                                        <li><i class='bx bx-check bx-tada'></i> Sleep tracker</li>
-                                                        <li><i class='bx bx-check bx-tada'></i> Altimeter</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="pills-contact" role="tabpanel"
-                                        aria-labelledby="pills-contact-tab">
-                                        <div class="list-info">
-                                            <div class="row">
-                                                <div class="col-lg-6 col-12 col-sm-6">
-                                                    <ul class="list-unstyled">
-                                                        <li><i class='bx bx-check bx-tada'></i> A personalized
-                                                            experience
-                                                        </li>
-                                                        <li><i class='bx bx-check bx-tada'></i> Integrate geolocation
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col-lg-6 col-12 col-sm-6">
-                                                    <ul class="list-unstyled">
-                                                        <li><i class='bx bx-check bx-tada'></i> Multi-device
-                                                            synchronization
-                                                        </li>
-                                                        <li><i class='bx bx-check bx-tada'></i> Sleep tracker</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </section>
--->
-        <!-- End Download -->
         <!-- Start Screenshots -->
         <section id="screenshots" class="screenshots pdd70">
             <div class="container">
@@ -650,7 +431,7 @@ Android & iOS</p>
                     <div class="mockup-mobile-slider">
                         <div class="mockup-box">
                             <img class="top-stack" src="assets/img/phone/top-stack1.png" alt="Huda">
-                            <img class="mm-mic" src="assets/img/phone/mobile-headphone.png" alt="Huda">
+                            <img class="mm-mic" src="assets/img/phone/mobile-headphone.webp" alt="Huda">
                             <img class="right-stack" src="assets/img/phone/right-stack1.png" alt="Huda">
                             <img class="left-stack" src="assets/img/phone/left-stack1.png" alt="Huda">
                             <img class="bottom-stack" src="assets/img/phone/bottom-stack1.png" alt="Huda">
@@ -663,60 +444,60 @@ Android & iOS</p>
                             <!-- Start Single Item -->
                             <div class="swiper-slide" data-swiper-autoplay="3000">
                                 <a href="https://play.google.com/store/apps/details?id=com.mobidroid.prixpad&hl=fr&gl=US" target="_blank">
-                                    <img alt="Huda" src="./assets/img/screenshots-1.png" class="img-fluid">
+                                    <img alt="Huda" src="./assets/img/screenshots-1.webp" class="img-fluid">
                                 </a>
                             </div>
                             <!-- End Single Item -->
                             <!-- Start Single Item -->
                             <div class="swiper-slide" data-swiper-autoplay="3000">
                                 <a href="https://play.google.com/store/apps/details?id=com.mazencoder.tttrn&hl=fr&gl=US" target="_blank">
-                                    <img alt="Huda" src="./assets/img/screenshots-2.png" class="img-fluid">
+                                    <img alt="Huda" src="./assets/img/screenshots-2.webp" class="img-fluid">
                                 </a>
                             </div>
                             <!-- End Single Item -->
                             <!-- Start Single Item -->
                             <div class="swiper-slide" data-swiper-autoplay="3000">
                                <a href="https://apps.apple.com/us/app/conduit/id1546685186" target="_blank">
-                                <img alt="Huda" src="./assets/img/screenshots-3.png" class="img-fluid"></a>
+                                <img alt="Huda" src="./assets/img/screenshots-3.webp" class="img-fluid"></a>
                             </div>
                             <!-- End Single Item -->
                             <!-- Start Single Item -->
                             <div class="swiper-slide" data-swiper-autoplay="3000">
 <!--                               <a href="https://apps.apple.com/us/app/mind-charms/id1543848255" target="_blank">-->
-                                <img alt="Huda" src="./assets/img/screenshots-4.png" class="img-fluid">
+                                <img alt="Huda" src="./assets/img/screenshots-4.webp" class="img-fluid">
 <!--                                </a>-->
                             </div>
                             <!-- End Single Item -->
                             <!-- Start Single Item -->
                             <div class="swiper-slide" data-swiper-autoplay="3000">
-                                <img alt="Huda" src="./assets/img/screenshots-5.png" class="img-fluid">
+                                <img alt="Huda" src="./assets/img/screenshots-5.webp" class="img-fluid">
                             </div>
 
                             <div class="swiper-slide" data-swiper-autoplay="3000">
                                <a href="https://play.google.com/store/apps/details?id=com.inoser.inoface_lescopains&hl=fr&gl=US" target="_blank">
-                                <img alt="Huda" src="./assets/img/screenshots-7.png" class="img-fluid"></a>
+                                <img alt="Huda" src="./assets/img/screenshots-7.webp" class="img-fluid"></a>
                             </div>
 
                             <div class="swiper-slide" data-swiper-autoplay="3000">
                                 <a href="https://apps.apple.com/us/app/heels-in-health/id1588640558" target="_blank">
-                                    <img alt="Huda" src="./assets/img/screenshots-8.png" class="img-fluid"></a>
+                                    <img alt="Huda" src="./assets/img/screenshots-8.webp" class="img-fluid"></a>
                             </div>
 
                             <div class="swiper-slide" data-swiper-autoplay="3000">
                                 <a href="https://play.google.com/store/apps/details?id=com.simon.vaccid" target="_blank">
-                                    <img alt="Huda" src="./assets/img/screenshots-9.png" class="img-fluid">
+                                    <img alt="Huda" src="./assets/img/screenshots-9.webp" class="img-fluid">
                                 </a>
                             </div>
 
                             <div class="swiper-slide" data-swiper-autoplay="3000">
                                 <!--                                <a href="https://play.google.com/store/apps/details?id=com.inoser.inoface_lescopains&hl=fr&gl=US" target="_blank">-->
-                                <img alt="Huda" src="./assets/img/screenshots-10.png" class="img-fluid">
+                                <img alt="Huda" src="./assets/img/screenshots-10.webp" class="img-fluid">
                                 <!--                                </a>-->
                             </div>
 
                             <div class="swiper-slide" data-swiper-autoplay="3000">
                                 <!--                                <a href="https://play.google.com/store/apps/details?id=com.inoser.inoface_lescopains&hl=fr&gl=US" target="_blank">-->
-                                <img alt="Huda" src="./assets/img/screenshots-11.png" class="img-fluid">
+                                <img alt="Huda" src="./assets/img/screenshots-11.webp" class="img-fluid">
                                 <!--                                </a>-->
                             </div>
                             <!-- End Single Item -->
@@ -728,332 +509,7 @@ Android & iOS</p>
             </div>
         </section>
         <!-- End Screenshots -->
-        <!-- Start Video -->
-<!--
-        <section id="video-box" class="video-box">
-            <div class="container">
 
-                <div class="video-inner">
-
-                    <div class="video-head">
-                        <h4>Get the brand new <br>
-                            Huda Service today</h4>
-                        <p>With Huda you get components and examples, including tons of variables that will help you
-                            customize this theme with ease.</p>
-                        <div class="line-sepa"></div>
-                        <h3><span>1,693,752</span> User have been using our Services successfully.</h3>
-                        <a href="#" class="bttn dblue">Free 30 Days Trial</a>
-                    </div>
-
-                    <div class="row align-items-center justify-content-between">
-
-                        <div class="col-md-6">
-                            <div class="video-img">
-                                <a href="https://www.youtube.com/watch?v=afj3WB44lko" data-lity>
-                                    <i class='bx bx-play bx-tada'></i>
-                                    <img class="img-fluid" src="http://placehold.it/1280x853" alt="Huda">
-                                </a>
-                            </div>
-                        </div>
-
-
-                        <div class="col-lg-5 col-md-6">
-                            <div class="video-title">
-                                <h2 class="h1">Huda</h2>
-                                <p>"Creative people need creative tools that actually help express themselves
-                                    creatively."
-                                </p>
-                                <ul class="list-unstyled">
-                                    <li><i class="bx bx-check bx-tada"></i> Modern and elegant Design.</li>
-                                    <li><i class="bx bx-check bx-tada"></i> Cross Browser Support.</li>
-                                    <li><i class="bx bx-check bx-tada"></i> W3C HTML Valid code.</li>
-                                    <li><i class="bx bx-check bx-tada"></i> Fully Responsive (Google Mobile Friendly).</li>
-                                    <li><i class="bx bx-check bx-tada"></i> Mobile Menu for Small Devices.</li>
-                                </ul>
-                                <h4>Reginald Peterson</h4>
-                                <span>Senior Front-End Developer</span>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </section>
--->
-        <!-- End Video -->
-        <!-- Start Pricing Table -->
-<!--
-        <section id="pricing-table" class="pricing-table pdd70">
-            <div class="container">
-
-                <div class="section-title">
-                    <h2>Pricing Table</h2>
-                    <p>We tried to make very high-quality product and so our code is very neat and clean, Whatever
-                        anyone
-                        could improve and modify the template to your liking</p>
-                </div>
-
-                <div class="row justify-content-around">
-
-                    <div class="col-xl-5 col-lg-5 col-md-5">
-                        <div class="price-box">
-                            <h4 class="price-title">Start Up</h4>
-                            <div class="price-content">
-                                <div class="price-icon">
-                                    <i class='bx bx-user'></i>
-                                </div>
-                                <div class="price-number">
-                                    <h4><span>$45</span> Monthly</h4>
-                                </div>
-                                <div class="price-features">
-                                    <ul class="list-unstyled">
-                                        <li>Disk Space<i class='bx bx-check'></i></li>
-                                        <li>Email Accounts<i class='bx bx-check'></i></li>
-                                        <li>Monthly Bandwidth<i class='bx bx-check'></i></li>
-                                        <li class="red">Subdomains<i class='bx bx-x'></i></li>
-                                        <li class="red">Domains<i class='bx bx-x'></i></li>
-                                    </ul>
-                                </div>
-                                <div class="price-bttn">
-                                    <a href="#" class="bttn dblue">Buy Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-xl-5 col-lg-5 col-md-5">
-                        <div class="price-box">
-                            <h4 class="price-title">Enterprise</h4>
-                            <div class="price-content">
-                                <div class="price-icon">
-                                    <i class='bx bx-rocket'></i>
-                                </div>
-                                <div class="price-number">
-                                    <h4><span>$100</span> Monthly</h4>
-                                </div>
-                                <div class="price-features">
-                                    <ul class="list-unstyled">
-                                        <li>Disk Space<i class='bx bx-check'></i></li>
-                                        <li>Email Accounts<i class='bx bx-check'></i></li>
-                                        <li>Monthly Bandwidth<i class='bx bx-check'></i></li>
-                                        <li>Subdomains<i class='bx bx-check'></i></li>
-                                        <li>Domains<i class='bx bx-check'></i></li>
-                                    </ul>
-                                </div>
-                                <div class="price-bttn">
-                                    <a href="#" class="bttn dblue">Buy Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
--->
-        <!-- End Pricing Table -->
-        <!-- Start Team -->
-<!--
-        <section id="team" class="team pdd70">
-            <div class="container">
-
-                <div class="section-title">
-                    <h2>Our Team</h2>
-                    <p>We tried to make very high-quality product and so our code is very neat and clean, Whatever
-                        anyone
-                        could improve and modify the template to your liking</p>
-                </div>
-
-                <div class="team-inner">
-                    <div class="row">
-
-                        <div class="col-md-3 col-sm-6">
-                            <div class="team-box">
-                                <div class="team-img">
-                                    <img class="team-img-person img-fluid" src="http://placehold.it/200x200"
-                                        alt="Huda">
-                                </div>
-                                <div class="team-txt">
-                                    <h4>James Watkins</h4>
-                                    <span>CO-Founder</span>
-                                    <div class="social-links">
-                                        <a href="#"><i class='bx bxl-facebook'></i></a>
-                                        <a href="#"><i class='bx bxl-twitter'></i></a>
-                                        <a href="#"><i class='bx bxl-linkedin'></i></a>
-                                        <a href="#"><i class='bx bxl-behance'></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6">
-                            <div class="team-box active">
-                                <div class="team-img">
-                                    <img class="team-img-person img-fluid" src="http://placehold.it/200x200"
-                                        alt="Huda">
-                                </div>
-                                <div class="team-txt">
-                                    <h4>Dora Alonso</h4>
-                                    <span>Marketing Manager</span>
-                                    <div class="social-links">
-                                        <a href="#"><i class='bx bxl-facebook'></i></a>
-                                        <a href="#"><i class='bx bxl-twitter'></i></a>
-                                        <a href="#"><i class='bx bxl-linkedin'></i></a>
-                                        <a href="#"><i class='bx bxl-behance'></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6">
-                            <div class="team-box">
-                                <div class="team-img">
-                                    <img class="team-img-person img-fluid" src="http://placehold.it/200x200"
-                                        alt="Huda">
-                                </div>
-                                <div class="team-txt">
-                                    <h4>Jerri Provost</h4>
-                                    <span>UI Developer</span>
-                                    <div class="social-links">
-                                        <a href="#"><i class='bx bxl-facebook'></i></a>
-                                        <a href="#"><i class='bx bxl-twitter'></i></a>
-                                        <a href="#"><i class='bx bxl-linkedin'></i></a>
-                                        <a href="#"><i class='bx bxl-behance'></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6">
-                            <div class="team-box">
-                                <div class="team-img">
-                                    <img class="team-img-person img-fluid" src="http://placehold.it/200x200"
-                                        alt="Huda">
-                                </div>
-                                <div class="team-txt">
-                                    <h4>Matthew Nolan</h4>
-                                    <span>Mobile Developer</span>
-                                    <div class="social-links">
-                                        <a href="#"><i class='bx bxl-facebook'></i></a>
-                                        <a href="#"><i class='bx bxl-twitter'></i></a>
-                                        <a href="#"><i class='bx bxl-linkedin'></i></a>
-                                        <a href="#"><i class='bx bxl-behance'></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </section>
--->
-        <!-- End Team -->
-        <!-- Start Faq -->
-<!--
-        <section id="faq" class="faq pdd70">
-            <div class="container">
-                <div class="row align-items-center justify-content-around">
-
-                    <div class="col-lg-6 col-md-6 order-2 order-md-1">
-                        <div class="faq-txt">
-                            <h4>Do you have any questions?</h4>
-                            <div class="accordion" id="accordionExample">
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseOne" aria-expanded="true"
-                                            aria-controls="collapseOne">
-                                            Modern, Elegant Design ?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse show"
-                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In officiis alias
-                                            <strong>minima mollitia pariatur</strong>, libero quod nemo voluptates aut
-                                            omnis
-                                            doloribus magni! Quod, possimus illum repellendus aperiam sed ducimus
-                                            soluta!
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                            aria-expanded="false" aria-controls="collapseTwo">
-                                            User interface design?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse"
-                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati minima
-                                            magnam, fuga, beatae exercitationem quasi eius temporibus eum ipsam nemo
-                                            corporis expedita alias quo? Repellat ea quasi voluptatem nisi repellendus.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                            aria-expanded="false" aria-controls="collapseThree">
-                                            Cross Browser support?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse"
-                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, earum cum
-                                            sunt
-                                            mollitia iure rerum distinctio hic, aliquam expedita perferendis unde eos
-                                            impedit officiis obcaecati accusamus velit explicabo. In, repellendus.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingFour">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                            aria-expanded="false" aria-controls="collapseFour">
-                                            User experience design?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseFour" class="accordion-collapse collapse"
-                                        aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nulla
-                                            laborum
-                                            porro pariatur fuga explicabo itaque molestiae quos quis recusandae, minima
-                                            libero excepturi error ipsum ducimus provident harum asperiores eos.
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-4 col-md-5 order-1 order-md-2">
-                        <div class="faq-img">
-                            <img class="img-fluid" src="http://placehold.it/640x960" alt="Huda">
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
--->
-        <!-- End Faq -->
         <!-- Start Blog -->
         <section id="blog" class="blog pdd70">
             <div class="container">
@@ -1069,21 +525,11 @@ Android & iOS</p>
                         <div class="col-lg-4 col-md-6">
                             <div class="post-box">
                                 <div class="post-img">
-<!--                                   <i class='bx bx-check'>-->
                                     <img class="img-fluid" src="./assets/svg/mobile.svg" alt="Huda">
                                 </div>
                                 <div class="post-txt">
                                     <h4><a href="#">Mobile App Development</a></h4>
                                     <p>I build iOS and Android apps. I'll take on your project through all phases of the process – designing and building your mobile application from start to finish</p>
-<!--
-                                    <div class="post-info">
-                                        <img src="http://placehold.it/131x132" alt="Huda">
-                                        <div class="post-info-txt">
-                                            <a href="#">Gladys Adams</a>
-                                            <span>Sep 09, 2021</span>
-                                        </div>
-                                    </div>
--->
                                 </div>
                             </div>
                         </div>
@@ -1097,15 +543,6 @@ Android & iOS</p>
                                 <div class="post-txt">
                                     <h4><a href="#">UI/UX Design</a></h4>
                                     <p>Design Ui/UX or prototype wireframe for mobile and web. I create beautiful interfaces for mobile apps and websites that are functional and easy to use</p>
-<!--
-                                    <div class="post-info">
-                                        <img src="http://placehold.it/131x132" alt="Huda">
-                                        <div class="post-info-txt">
-                                            <a href="#">Irving Kinch</a>
-                                            <span>Sep 09, 2021</span>
-                                        </div>
-                                    </div>
--->
                                 </div>
                             </div>
                         </div>
@@ -1119,15 +556,6 @@ Android & iOS</p>
                                 <div class="post-txt">
                                     <h4><a href="#">Marketing</a></h4>
                                     <p>I improve your social media presence with Social Media Marketing Services, grow your business’ brand awareness, number of new customers, and website traffic</p>
-<!--
-                                    <div class="post-info">
-                                        <img src="http://placehold.it/131x132" alt="Huda">
-                                        <div class="post-info-txt">
-                                            <a href="#">Willie Carter</a>
-                                            <span>Sep 09, 2021</span>
-                                        </div>
-                                    </div>
--->
                                 </div>
                             </div>
                         </div>
@@ -1154,7 +582,6 @@ Android & iOS</p>
                     <!-- Start Mobile Map -->
                     <div class="col-lg-8 col-md-12">
                         <div class="contact-txt">
-<!--                            <h5></h5>-->
                             <h4>Ready to build better apps?</h4>
                             <p>Interested in working together <br>
                                  or just want to discuss your project and ideas?</p>
@@ -1182,13 +609,13 @@ Android & iOS</p>
                                 </div>
                                 <!-- End Contact Form -->
 
-                                <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+                                <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
                                 <script type="text/javascript">
                                     function sendEmail() {
-                                        var name = $("#name");
-                                        var email = $("#email");
-                                        var subject = $("#subject");
-                                        var body = $("#body");
+                                        const name = $("#name");
+                                        const email = $("#email");
+                                        const subject = $("#subject");
+                                        const body = $("#body");
 
                                         if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(body)) {
                                             $.ajax({
@@ -1209,7 +636,7 @@ Android & iOS</p>
                                     }
 
                                     function isNotEmpty(caller) {
-                                        if (caller.val() == "") {
+                                        if (caller.val() === "") {
                                             caller.css('border', '1px solid red');
                                             return false;
                                         } else
@@ -1245,7 +672,7 @@ Android & iOS</p>
                                             <i class='bx bxs-phone'></i>
                                             <div class="contact-info-txt">
                                                 <h5>Phone Number</h5>
-                                                <a href="tel:01234567">+212-654-106337</a>
+                                                <a href="tel:01234567">+212-708-996285</a>
                                             </div>
                                         </div>
                                         <!-- End Contact Box -->
@@ -1265,22 +692,7 @@ Android & iOS</p>
     <footer id="footer" class="footer">
         <div class="container">
             <!-- Footer Logo -->
-<!--
-            <div class="footer-logo">
-                <a href="#"><img src="http://placehold.it/347x422" alt="Huda"></a>
-            </div>
--->
-            <!-- Footer Links -->
-<!--
-            <div class="footer-links">
-                <ul class="list-unstyled d-flex">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Sitemap</a></li>
-                </ul>
-            </div>
--->
+
             <!-- Footer Social -->
             <div class="footer-social">
                 <div class="row">
