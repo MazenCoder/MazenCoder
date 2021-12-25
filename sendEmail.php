@@ -54,7 +54,7 @@
 //        $mail->Host = "smtp.gmail.com";
 //        $mail->SMTPAuth = true;
 //        $mail->Username = "contact.mazencoder@gmail.com"; //enter you email address
-//        $mail->Password = '777278841@#'; //enter you email password
+//        $mail->Password = ''; //enter you email password
 //        $mail->Port = 465;
 //        $mail->SMTPSecure = "ssl";
 //
