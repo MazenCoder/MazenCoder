@@ -7,36 +7,72 @@
         $subject = $_POST['subject'];
         $body = $_POST['body'];
 
-        require_once "PHPMailer/PHPMailer.php";
-        require_once "PHPMailer/SMTP.php";
-        require_once "PHPMailer/Exception.php";
+        $data = array(
+            "fullName" => $name,
+            "emailAddress" => $email,
+            "subject" => $subject,
+            "message" => $body,
+        );
 
-        $mail = new PHPMailer();
+        $payload = json_encode($data);
 
-        //SMTP Settings
-        $mail->isSMTP();
-        $mail->Host = "smtp.gmail.com";
-        $mail->SMTPAuth = true;
-        $mail->Username = "contact.mazencoder@gmail.com"; //enter you email address
-        $mail->Password = '777278841@#'; //enter you email password
-        $mail->Port = 465;
-        $mail->SMTPSecure = "ssl";
+        // Initialise new cURL session
+        $ch = curl_init('https://us-central1-mazen-coder.cloudfunctions.net/sendEmail');
 
-        //Email Settings
-        $mail->isHTML(true);
-        $mail->setFrom($email, $name);
-        $mail->addAddress("alareqimazen@gmail.com"); //enter you email address
-        $mail->Subject = ("$email ($subject)");
-        $mail->Body = $body;
+        // Return result of POST request
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-        if ($mail->send()) {
-            $status = "success";
-            $response = "Email is sent!";
-        } else {
-            $status = "failed";
-            $response = "Something is wrong: <br><br>" . $mail->ErrorInfo;
-        }
+        // Get information about last transfer
+        curl_setopt($ch, CURLINFO_HEADER_OUT, true);
 
-        exit(json_encode(array("status" => $status, "response" => $response)));
+        // Use POST request
+        curl_setopt($ch, CURLOPT_POST, true);
+
+        // Set payload for POST request
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
+
+        // Set HTTP Header for POST request
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+                'Content-Type: application/json',
+                'Content-Length: ' . strlen($payload))
+        );
+
+        // Execute a cURL session
+        $result = curl_exec($ch);
+
+        // Close cURL session
+        curl_close($ch);
+
+//        require_once "PHPMailer/PHPMailer.php";
+//        require_once "PHPMailer/SMTP.php";
+//        require_once "PHPMailer/Exception.php";
+//
+//        $mail = new PHPMailer();
+//
+//        //SMTP Settings
+//        $mail->isSMTP();
+//        $mail->Host = "smtp.gmail.com";
+//        $mail->SMTPAuth = true;
+//        $mail->Username = "contact.mazencoder@gmail.com"; //enter you email address
+//        $mail->Password = '777278841@#'; //enter you email password
+//        $mail->Port = 465;
+//        $mail->SMTPSecure = "ssl";
+//
+//        //Email Settings
+//        $mail->isHTML(true);
+//        $mail->setFrom($email, $name);
+//        $mail->addAddress("alareqimazen@gmail.com"); //enter you email address
+//        $mail->Subject = ("$email ($subject)");
+//        $mail->Body = $body;
+//
+//        if ($mail->send()) {
+//            $status = "success";
+//            $response = "Email is sent!";
+//        } else {
+//            $status = "failed";
+//            $response = "Something is wrong: <br><br>" . $mail->ErrorInfo;
+//        }
+//
+//        exit(json_encode(array("status" => $status, "response" => $response)));
     }
 ?>
