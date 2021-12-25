@@ -396,11 +396,6 @@ Android & iOS</p>
                             <h3>About me</h3>
                             <p>I am a freelance mobile app developer who specializes in native, as well as hybrid app development for iOS and Android. I have worked with reputed companies and have strived to polish my development skills over the course of years of coding.</p>
                             <p>At the very start, I am a problem solver who can craft unique digital solutions to solve all your problems through efficient and expert coding</p>
-<!--
-                            <div class="best-feature-button">
-                                <a href="#" class="bttn dblue">Read More</a>
-                            </div>
--->
                         </div>
                     </div>
                     <!-- End Feature Text -->
