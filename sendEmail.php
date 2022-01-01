@@ -1,7 +1,7 @@
 <?php
     use PHPMailer\PHPMailer\PHPMailer;
 
-    if (isset($_POST['name']) && isset($_POST['email'])) {
+    if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['subject']) && isset($_POST['body'])) {
         $name = $_POST['name'];
         $email = $_POST['email'];
         $subject = $_POST['subject'];
@@ -18,6 +18,7 @@
 
         // Initialise new cURL session
         $ch = curl_init('https://us-central1-mazen-coder.cloudfunctions.net/sendEmail');
+//        $ch = curl_init('');
 
         // Return result of POST request
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -34,7 +35,8 @@
         // Set HTTP Header for POST request
         curl_setopt($ch, CURLOPT_HTTPHEADER, array(
                 'Content-Type: application/json',
-                'Content-Length: ' . strlen($payload))
+                'Content-Length: ' . strlen($payload),
+              )
         );
 
         // Execute a cURL session
@@ -75,4 +77,6 @@
 //
 //        exit(json_encode(array("status" => $status, "response" => $response)));
     }
+
+    exit(json_encode(array("status" => 'success', "response" => 200)));
 ?>

@@ -592,16 +592,16 @@
                                 <div class="col-md-8 col-sm-7">
                                     <form id="myForm">
                                         <div class="input-group mb-3">
-                                            <input id="name" type="text" class="form-control" placeholder="الأسم بالكامل">
+                                            <input id="name" type="text" class="form-control" placeholder="الأسم بالكامل" required="required">
                                         </div>
                                         <div class="input-group mb-3">
-                                            <input id="email" type="email" class="form-control" placeholder="البريد الألكتروني">
+                                            <input id="email" type="email" class="form-control" placeholder="البريد الألكتروني" required="required">
                                         </div>
                                         <div class="input-group mb-3">
-                                            <input id="subject" type="text" class="form-control" placeholder="عنوان الرسالة">
+                                            <input id="subject" type="text" class="form-control" placeholder="عنوان الرسالة" required="required">
                                         </div>
                                         <div class="input-group mb-3">
-                                            <textarea id="body" class="form-control" placeholder="محتوى الرسالة"></textarea>
+                                            <textarea id="body" class="form-control" placeholder="محتوى الرسالة" required="required"></textarea>
                                         </div>
                                         <div class="input-group mb-3">
                                             <input type="submit" onclick="sendEmail()" value="إرسال">
@@ -616,33 +616,41 @@
                                         const email = $("#email");
                                         const subject = $("#subject");
                                         const body = $("#body");
-
                                         if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(body)) {
-                                            $.ajax({
-                                                url: 'sendEmail.php',
-                                                method: 'POST',
-                                                dataType: 'json',
-                                                data: {
-                                                    name: name.val(),
-                                                    email: email.val(),
-                                                    subject: subject.val(),
-                                                    body: body.val()
-                                                }, success: function (response) {
-                                                    $('#myForm')[0].reset();
-                                                    // $('.sent-notification').text("Message Sent Successfully.");
-                                                }
+                                            $('#myForm').submit(function(e) {
+                                                e.preventDefault();
+                                                $.ajax({
+                                                    type: 'POST',
+                                                    url: 'sendEmail.php',
+                                                    data: {
+                                                        name: name.val(),
+                                                        email: email.val(),
+                                                        subject: subject.val(),
+                                                        body: body.val()
+                                                    },
+                                                    dataType: "json",
+                                                    success: function(data, state) {
+                                                        document.getElementById("myForm").reset();
+                                                        // $('#myForm')[0].reset();
+                                                        alert('Your message submitted successfully');
+                                                        // $('.sent-notification').text("Message Sent Successfully.");
+                                                    }
+                                                });
                                             });
+                                        } else {
+                                            // console.log('------- 5 -------');
+                                            // alert('error');
                                         }
                                     }
 
                                     function isNotEmpty(caller) {
-                                        if (caller.val() === "") {
-                                            caller.css('border', '1px solid red');
+                                        if (caller == null || caller.val() === '') {
+                                            caller.css('border', '5px solid red');
                                             return false;
-                                        } else
+                                        } else {
                                             caller.css('border', '');
-
-                                        return true;
+                                            return true;
+                                        }
                                     }
                                 </script>
                                 <!-- Start Contact Info -->
